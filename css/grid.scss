@@ -1,0 +1,44 @@
+@mixin 混合器名称——但不能是中文() {
+    @for $i from 1 through 12 {
+        .col-xs-#{$i} {
+            width: calc(100%*#{$i}/12);
+        }
+    }
+}
+
+//建立混合器，建立了但还没有使用
+@mixin setup-grid($devicename) {
+    @for $i from 1 through 12 {
+        .col-#{$devicename}-#{$i} {
+            width: calc(100%*#{$i}/12);
+        }
+    }
+}
+
+//使用混合器，只要替换小括号里的值就可以，像是c++里的函数和函数的参数值
+//手机版网格
+@include setup-grid('xs');
+//平板网格
+@media screen and (min-width: 768px) {
+    @include setup-grid('sm');
+}
+
+//普通电脑网格
+@media screen and (min-width: 992px) {
+    @include setup-grid('md');
+}
+
+//大荧幕网格
+@media screen and (min-width: 1200px) {
+    @include setup-grid('lg');
+}
+
+@for $i from 1 through 12 {
+    .col-xs-#{$i} {
+        width: calc(100%*#{$i}/12);
+    }
+}
+
+.col-xs-1 {
+    width: calc(100%*1/12);
+}

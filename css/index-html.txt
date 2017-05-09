@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-md-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet consectetur quidem iure nulla fuga inventore a
+            architecto eos quod suscipit distinctio nostrum dolores, explicabo repudiandae magni accusamus sunt neque nisi
+            quis ab! Ducimus dignissimos, laudantium nobis, fugiat eaque unde nemo iure fugit, quo harum tempora expedita
+            animi consequuntur sed maiores quod dolor beatae! Nihil sint impedit itaque, esse accusamus, sed quisquam. Et
+            dolorem quis provident velit ab, minus nesciunt omnis voluptates, voluptatem error voluptas, ratione at quod
+            doloribus beatae facilis! Animi commodi optio eum similique asperiores soluta, impedit expedita obcaecati quia
+            hic nihil, consequatur officia ducimus laboriosam saepe distinctio amet.</div>
+        <div class="col-md-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet consectetur quidem iure nulla fuga inventore a
+            architecto eos quod suscipit distinctio nostrum dolores, explicabo repudiandae magni accusamus sunt neque nisi
+            quis ab! Ducimus dignissimos, laudantium nobis, fugiat eaque unde nemo iure fugit, quo harum tempora expedita
+            animi consequuntur sed maiores quod dolor beatae! Nihil sint impedit itaque, esse accusamus, sed quisquam. Et
+            dolorem quis provident velit ab, minus nesciunt omnis voluptates, voluptatem error voluptas, ratione at quod
+            doloribus beatae facilis! Animi commodi optio eum similique asperiores soluta, impedit expedita obcaecati quia
+            hic nihil, consequatur officia ducimus laboriosam saepe distinctio amet.</div>
+        <div class="col-md-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet consectetur quidem iure nulla fuga inventore a
+            architecto eos quod suscipit distinctio nostrum dolores, explicabo repudiandae magni accusamus sunt neque nisi
+            quis ab! Ducimus dignissimos, laudantium nobis, fugiat eaque unde nemo iure fugit, quo harum tempora expedita
+            animi consequuntur sed maiores quod dolor beatae! Nihil sint impedit itaque, esse accusamus, sed quisquam. Et
+            dolorem quis provident velit ab, minus nesciunt omnis voluptates, voluptatem error voluptas, ratione at quod
+            doloribus beatae facilis! Animi commodi optio eum similique asperiores soluta, impedit expedita obcaecati quia
+            hic nihil, consequatur officia ducimus laboriosam saepe distinctio amet.</div>
+        <div class="col-md-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet consectetur quidem iure nulla fuga inventore a
+            architecto eos quod suscipit distinctio nostrum dolores, explicabo repudiandae magni accusamus sunt neque nisi
+            quis ab! Ducimus dignissimos, laudantium nobis, fugiat eaque unde nemo iure fugit, quo harum tempora expedita
+            animi consequuntur sed maiores quod dolor beatae! Nihil sint impedit itaque, esse accusamus, sed quisquam. Et
+            dolorem quis provident velit ab, minus nesciunt omnis voluptates, voluptatem error voluptas, ratione at quod
+            doloribus beatae facilis! Animi commodi optio eum similique asperiores soluta, impedit expedita obcaecati quia
+            hic nihil, consequatur officia ducimus laboriosam saepe distinctio amet.</div>
+    </div>
+    <footer></footer>
+</body>
+
+</html>

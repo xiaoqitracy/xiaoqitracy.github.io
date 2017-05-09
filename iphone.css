@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+.iphone {
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 217px;
+    height: 450px;
+    /*background-image: url('./iphone.jpg');*/
+    background-size: 830px;
+    background-position-x: -134px;
+    background-position-y: -86px;
+    /*border: 2px solid #2d2e31;*/
+    /*background: #2d2e31;*/
+    border-radius: 38px;
+    background: linear-gradient(to top, #2a2a2a, #121212);
+}
+
+.border2 {
+    position: absolute;
+    left: 22.5px;
+    top: 25px;
+    width: 208px;
+    height: 440px;
+    background: #0e0e0e;
+    border-radius: 37px;
+}
+
+.screen {
+    padding: 0;
+    position: absolute;
+    width: 190px;
+    height: 336px;
+    border: 3px solid #131313;
+    left: 31.5px;
+    top: 77px;
+    /*background: #37383a;*/
+    background: linear-gradient(120deg, #535454, #232323);
+}
+
+.button1 {
+    position: absolute;
+    width: 4px;
+    height: 13px;
+    /*border: 1px solid #2d2e31;*/
+    /*background: #2d2e31;*/
+    background: linear-gradient(to right, #424242, #181819);
+    left: 15.8px;
+    top: 83px;
+    border-radius: 1.8px;
+}
+
+.button2 {
+    position: absolute;
+    width: 4px;
+    height: 30px;
+    /*border: 1px solid #2d2e31;*/
+    background: linear-gradient(to right, #424242, #181819);
+    left: 15.8px;
+    top: 127px;
+    border-radius: 1.8px;
+}
+
+.button3 {
+    position: absolute;
+    width: 4px;
+    height: 30px;
+    /*border: 1px solid #2d2e31;*/
+    background: linear-gradient(to right, #424242, #181819);
+    left: 15.8px;
+    top: 168px;
+    border-radius: 1.8px;
+}
+
+.button4 {
+    position: absolute;
+    width: 4px;
+    height: 30px;
+    /*border: 1px solid #2d2e31;*/
+    background: linear-gradient(to left, #424242, #181819);
+    left: 233.2px;
+    top: 126px;
+    border-radius: 1.8px;
+}
+
+.home2 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    /*border: 2px solid white;*/
+    top: 425px;
+    left: 110px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #565656, #292929, #565656);
+    /*background: #181819;*/
+}
+
+.home {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    /*border: 2px solid #303030;*/
+    top: 426.9px;
+    left: 112.1px;
+    border-radius: 50%;
+    background: #0e0e0e;
+    /*background: linear-gradient(120deg, #2F2F2F, #181819);*/
+}
+
+.sound {
+    position: absolute;
+    width: 35px;
+    height: 4px;
+    border: 1px solid #212121;
+    background: #303030;
+    left: 110px;
+    top: 51px;
+    border-radius: 2px;
+}
+
+.camera1 {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border: 1px solid #212121;
+    background: #303030;
+    left: 90px;
+    top: 50px;
+    border-radius: 50%;
+}
+
+.camera2 {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border: 1=.8px solid #212121;
+    background: #303030;
+    left: 126px;
+    top: 32px;
+    border-radius: 50%;
+}

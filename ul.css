@@ -1,0 +1,33 @@
+.table li ul {
+    border: 1px solid black;
+    display: none;
+}
+
+.daolan1:hover .zitable {
+    border: 1px solid black;
+    display: block;
+}
+
+.daolan2:hover .zizitable {
+    border: 1px solid black;
+    display: block;
+}
+
+.daolan3:hover {
+    border: 1px solid black;
+}
+
+.table>li {
+    border: 1px solid yellow;
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    width: 100px;
+}
+
+.test {
+    clear: both;
+    width: 600px;
+    height: 600px;
+    background: linear-gradient(to left, #4CF9D3, #0A895F);
+}

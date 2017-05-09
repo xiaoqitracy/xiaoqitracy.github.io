@@ -1,0 +1,6 @@
+ [class^='col-'] {
+     float: left;
+     /*网格中间留白*/
+     padding-left: 15px;
+     padding-right: 15px;
+ }
