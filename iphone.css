@@ -41,45 +41,45 @@
 
 .button1 {
     position: absolute;
-    width: 4px;
+    width: 2.5px;
     height: 13px;
     /*border: 1px solid #2d2e31;*/
     /*background: #2d2e31;*/
     background: linear-gradient(to right, #424242, #181819);
-    left: 15.8px;
+    left: 16px;
     top: 83px;
     border-radius: 1.8px;
 }
 
 .button2 {
     position: absolute;
-    width: 4px;
+    width: 2.5px;
     height: 30px;
     /*border: 1px solid #2d2e31;*/
     background: linear-gradient(to right, #424242, #181819);
-    left: 15.8px;
+    left: 16px;
     top: 127px;
     border-radius: 1.8px;
 }
 
 .button3 {
     position: absolute;
-    width: 4px;
+    width: 2.5px;
     height: 30px;
     /*border: 1px solid #2d2e31;*/
     background: linear-gradient(to right, #424242, #181819);
-    left: 15.8px;
+    left: 16px;
     top: 168px;
     border-radius: 1.8px;
 }
 
 .button4 {
     position: absolute;
-    width: 4px;
+    width: 2.5px;
     height: 30px;
     /*border: 1px solid #2d2e31;*/
     background: linear-gradient(to left, #424242, #181819);
-    left: 233.2px;
+    left: 234px;
     top: 126px;
     border-radius: 1.8px;
 }
