@@ -1,0 +1,204 @@
+/*@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);*/
+
+* {
+    box-sizing: border-box;
+    font-family: "Noto Sans TC", "sans-serif", "黑体";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*設置超鏈接狀態*/
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+/*header的盒子*/
+
+.container-head {
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+}
+
+.nav {
+    width: 100%;
+    height: 120px;
+    background-color: rgba(231, 147, 103, 1);
+    position: fixed;
+}
+
+
+/*頭像區域：頭像超鏈接+右邊文字*/
+
+.touxiang {
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    float: left;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+
+/*頭像圖片超鏈接*/
+
+.fbtouxiang {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url(touxiang.jpg);
+    background-size: 100%;
+    border-radius: 50%;
+}
+
+.fbtouxiang:after {
+    width: 100px;
+    height: 100px;
+    display: block;
+    background: rgba(0, 0, 0, 1);
+}
+
+
+/*頭像右邊文字*/
+
+.fbtouxiang-text {
+    position: absolute;
+    top: 37px;
+    left: 110px;
+    /*border: 1px solid white;*/
+    width: 130px;
+    text-align: center;
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Arial";
+    font-weight: bold;
+    /*display: none;*/
+    opacity: 0;
+    transition: opacity 1.5s;
+    background: rgba(255, 255, 255, 0.3)；
+}
+
+.fbtouxiang:hover+.fbtouxiang-text {
+    opacity: 1;
+}
+
+
+/*na2區域劃分*/
+
+.nav2 {
+    width: 304px;
+    height: 100px;
+    border: 1px solid black;
+    position: fixed;
+    left: 1002px;
+    top: 17px;
+    color: white;
+    font-weight: bold;
+}
+
+.index {
+    position: absolute;
+    top: 52px;
+}
+
+
+/*設置float*/
+
+.index>li {
+    float: left;
+}
+
+.nav2 ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*設置首頁和地點區域*/
+
+.shouye {
+    width: 150px;
+    /*border: 1px solid white;*/
+    list-style-type: none;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 1.5em;
+    /*background: rgba(255, 255, 255, 0.3);*/
+}
+
+.didian {
+    /*background: rgba(255, 255, 255, 0.3);*/
+    width: 150px;
+    /*border: 1px solid white;*/
+    list-style-type: none;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+/*鼠標沒移動時的子nav*/
+
+.index .grid {
+    /*border: 1px solid black;*/
+    display: none;
+}
+
+
+/*鼠標移動時的子nav*/
+
+.didian:hover .grid {
+    display: block;
+}
+
+.li1 {
+    /*border: 1px solid black;*/
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    background: rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid white;
+    list-style-type: none;
+    font-size: 1em;
+}
+
+.li2 {
+    /*border: 1px solid black;*/
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    list-style-type: none;
+}
+
+.li3 {
+    /*border: 1px solid black;*/
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    list-style-type: none;
+}

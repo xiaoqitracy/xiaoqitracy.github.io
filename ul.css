@@ -19,15 +19,21 @@
 
 .table>li {
     border: 1px solid yellow;
-    float: left;
     height: 60px;
     line-height: 60px;
     width: 100px;
 }
 
-.test {
-    clear: both;
-    width: 600px;
-    height: 600px;
-    background: linear-gradient(to left, #4CF9D3, #0A895F);
+.testa {
+    display: block;
+    weight: 1000px;
+    height: 1000px;
+    background-image: url("./iphone.jpg");
+    background-size: 100%;
+    line-height: 1000px;
+    text-align: center;
+}
+
+.testa:hover {
+    background-image: url("./image/cbddb464034f78f0b0abf0bc7b310a55b2191c88.jpg")
 }
