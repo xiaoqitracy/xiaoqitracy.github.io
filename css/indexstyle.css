@@ -54,9 +54,9 @@ a:active {
 /*頭像區域：頭像超鏈接+右邊文字*/
 
 .touxiang {
-    width: 300px;
+    width: 400px;
     height: 100px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     float: left;
     position: absolute;
     top: 10px;
@@ -90,12 +90,12 @@ a:active {
 
 .fbtouxiang-text {
     position: absolute;
-    top: 37px;
-    left: 110px;
+    top: 60px;
+    left: 60px;
     /*border: 1px solid white;*/
-    width: 130px;
+    width: 230px;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
     color: rgba(255, 255, 255, 0.8);
     font-family: "Arial";
     font-weight: bold;
@@ -119,7 +119,7 @@ a:active {
 .nav2 {
     width: 304px;
     height: 100px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     /*position: absolute;
     left: 1002px;
     top: 17px;*/
@@ -130,7 +130,7 @@ a:active {
 
 .index {
     position: absolute;
-    top: 80px;
+    top: 75px;
 }
 
 
@@ -155,7 +155,7 @@ a:active {
     height: 40px;
     line-height: 40px;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
     /*background: rgba(255, 255, 255, 0.3);*/
 }
 
@@ -167,7 +167,7 @@ a:active {
     height: 40px;
     line-height: 40px;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 
@@ -196,7 +196,7 @@ a:active {
     background: rgba(255, 255, 255, 0.3);
     border-bottom: 1px solid white;
     list-style-type: none;
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 .li2 {
@@ -207,6 +207,7 @@ a:active {
     list-style-type: none;
     background: rgba(255, 255, 255, 0.3);
     border-bottom: 1px solid white;
+    font-size: 0.8em;
 }
 
 .li3 {
@@ -217,6 +218,7 @@ a:active {
     list-style-type: none;
     background: rgba(255, 255, 255, 0.3);
     border-bottom: 1px solid white;
+    font-size: 0.8em;
 }
 
 
@@ -226,29 +228,46 @@ a:active {
 /*section1的盒子*/
 
 .container-section1 {
-    height: 500px;
+    height: 700px;
     width: 100%;
     margin: 0 auto;
     background-image: url("../image/beijing.jpg");
     background-size: cover;
     position: static;
     background-repeat: no-repeat;
-    background-position: 0, 30px;
-    border: 1px solid black;
+    background-position: 0, -10px;
+    /*border: 1px solid black;*/
     /*background: black;*/
 }
 
+h1 {
+    font-size: 3em;
+    color: white;
+    position: absolute;
+    left: 20px;
+}
+
+.shuoming {
+    font-size: 1.5em;
+    color: white;
+    position: absolute;
+    left: 25px;
+    top: 180px;
+}
+
 .rili {
-    width: 500px;
-    height: 400px;
+    width: 600px;
+    height: 480px;
     border: 1px solid white;
     /*position: absolute;
     left: 20px;
     top: 170px;*/
     float: left;
-    margin-top: 50px;
+    margin-top: 140px;
     margin-left: 20px;
     background-image: url("../image/rili2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
     opacity: 0.75;
 }
 
