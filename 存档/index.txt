@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ç¾Žé£Ÿè¨˜éŒ„</title>
+    <title>ÃÀÊ³Ó›ä›</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/indexstyle.css">
     <link rel="stylesheet" href="./css/indexrwd.css">
@@ -19,11 +19,11 @@
         <!--header-->
         <div class="container-header">
             <div class="nav">
-                <!--è¨­ç½®é ­åƒåœ–ç‰‡è¶…éˆæŽ¥å’Œå³å´æ–‡å­—-->
+                <!--ÔOÖÃî^ÏñˆDÆ¬³¬æœ½ÓºÍÓÒ‚ÈÎÄ×Ö-->
                 <div class="touxiang">
-                    <!--è¨­ç½®é ­åƒåœ–ç‰‡è¶…éˆæŽ¥-->
+                    <!--ÔOÖÃî^ÏñˆDÆ¬³¬æœ½Ó-->
                     <a href="./grid/aboutme.html" class="fbtouxiang"></a>
-                    <!--è¨­ç½®é ­åƒæ—é‚Šæ–‡å­—-->
+                    <!--ÔOÖÃî^ÏñÅÔß…ÎÄ×Ö-->
                     <span class="fbtouxiang-text">About Me</span>
                 </div>
                 <div class="nav2">
@@ -43,9 +43,8 @@
     </header>
 
 
-    <!--æ—¥åŽ†åŒº-->
+    <!--ÈÕÀúÇø-->
     <section class="one">
-
         <div class="container-section1">
             <h1>Title</h1>
             <p class="shuoming">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
@@ -54,7 +53,6 @@
         </div>
 
         </div>
-        </div>
 
     </section>
 
@@ -62,37 +60,37 @@
     <section class="two">
         <div class="container2">
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="section-box">
                         <div class="section-box-img">
                             <img src="https://unsplash.it/400?image=835" alt="" class="section-box-img1">
                         </div>
                         <div class="section-box-icon">
-                            <h3><i class="fa fa-cutlery" aria-hidden="true"></i> Title</h3>
+                            <h3><i class="fa fa-cutlery" aria-hidden="true"></i>Title</h3>
                         </div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic dolore commodi totam ad est error esse
                             officiis debitis sint quod.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="section-box">
                         <div class="section-box-img">
                             <img src="https://unsplash.it/400?image=488" alt="" class="section-box-img2">
                         </div>
                         <div class="section-box-icon">
-                            <h3><i class="fa fa-lemon-o" aria-hidden="true"></i> Title</h3>
+                            <h3><i class="fa fa-lemon-o" aria-hidden="true"></i>Title</h3>
                         </div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic dolore commodi totam ad est error esse
                             officiis debitis sint quod.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="section-box">
                         <div class="section-box-img">
                             <img src="https://unsplash.it/400?image=1080" alt="" class="section-box-img3">
                         </div>
                         <div class="section-box-icon">
-                            <h3><i class="fa fa-glass" aria-hidden="true"></i> Title</h3>
+                            <h3><i class="fa fa-glass" aria-hidden="true"></i>Title</h3>
                         </div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic dolore commodi totam ad est error esse
                             officiis debitis sint quod.</p>

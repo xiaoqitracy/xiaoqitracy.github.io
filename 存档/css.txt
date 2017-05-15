@@ -14,7 +14,7 @@
 }
 
 
-/*è§£å†³divçš„floaté—®é¢˜*/
+/*½â¾ödivµÄfloatÎÊÌâ*/
 
 .row:after {
     content: "";
@@ -25,9 +25,8 @@
 
 [class^='col-'] {
     float: left;
-    /* ç¶²æ ¼ä¹‹é–“çš„ç•™ç™½ */
+    /* ¾W¸ñÖ®égµÄÁô°× */
     padding: 15px;
-    width: 100%;
 }
 
 .col-xs-1 {
@@ -122,7 +121,7 @@
 
 @media screen and (min-width: 992px) {
     .container2 {
-        width: 980px;
+        width: 870px;
     }
     .col-md-1 {
         width: calc( 100% * 1 / 12);
