@@ -229,6 +229,36 @@ a:active {
 
 /*section1*/
 
+.three {
+    background: white;
+    /*    padding: 21px;*/
+    /*    margin-bottom: 30px;*/
+}
+
+#slideshow {
+    /*    border: 1px solid black;*/
+}
+
+.carousel-img {
+    text-align: center;
+}
+
+.carousel-h {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'ABeeZee', sans-serif;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    color: rgba(143, 166, 112, 1);
+}
+
+.carousel-p {
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'ABeeZee', sans-serif;
+    color: rgba(143, 166, 112, 0.8);
+}
+
 
 /*section1的盒子*/
 
@@ -246,7 +276,7 @@ a:active {
 }
 
 h1 {
-    font-size: 2.3em;
+    font-size: 3em;
     font-family: 'ABeeZee', sans-serif;
     /*font-family: 'Cormorant Garamond', serif;*/
     color: white;
@@ -259,11 +289,11 @@ h1 {
     font-family: 'ABeeZee', sans-serif;
     font-family: 'Cormorant Garamond', serif;
     font-style: bold;
-    font-size: 1.2em;
+    font-size: 1.4em;
     color: white;
     position: absolute;
-    left: 25px;
-    top: 150px;
+    left: 28px;
+    top: 160px;
 }
 
 .rili {
@@ -304,6 +334,8 @@ h1 {
 .two {
     padding: 30px 0;
     background: rgba(239, 203, 118, 0.4);
+    /*    border: 1px solid black;*/
+    margin: 0;
 }
 
 .section-box p {
@@ -405,9 +437,9 @@ footer {
     margin: 0;
     text-align: center;
     font-family: "Cormorant Garamond";
-    border: 1px solid rgba(231, 147, 103, 1);
+    border: 5px solid rgba(231, 147, 103, 1);
     background: rgba(231, 147, 103, 1);
-    font-size: 1.4em;
+    font-size: 1.5em;
     font-weight: bold;
     color: white;
 }
